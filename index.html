@@ -23,20 +23,22 @@
         </script> -->
 
         <!-- React ways -->
-         <h1>Hello I am top here</h1>
+        <!-- <h1>Hello I am top here</h1> -->
         <div id="root">
             <!-- <h1>Hello I am here</h1>  ---  this will be replaced by the code from React when root.render(elements) is called-->
         </div>
-        <h1>Hello I am bottom here</h1>
+        <!-- <h1>Hello I am bottom here</h1> -->
 
-        <script
+        <!-- below scripts are added to use react in the app... we can add react & react-dom dependencies, then these
+            scripts won't be needed -->
+        <!-- <script
             crossorigin
             src="https://unpkg.com/react@18/umd/react.development.js">
         </script>
         <script
             crossorigin
             src="https://unpkg.com/react-dom@18/umd/react-dom.development.js">
-        </script>
+        </script> -->
 
         <!-- <script>
             const heading = React.createElement("h1", {}, "Hello World from React!");
@@ -45,6 +47,22 @@
             root.render(heading);
         </script> -->
 
-        <script src="./App.js"></script>
+        <script type="module" src="./App.js"></script>
     </body>
 </html>
+
+<!-- Package.json is a configuration for npm -->
+<!--
+    
+    2 dependencies: dev dependency & normal dependency
+    node_modules is a collection of dependencies.
+
+    npm install -> npm command is used to install package
+    npx parcel index.html -> npx command is used to execute the package(here it's executing 'parcel' package)
+
+    cdn links are not recommended way to bri
+    ng react into the application.
+    also, getting reacts from cdn is costly, we need to call some other network(unpkg.com) to bring react
+    instead, it's easier if we install it into the app, so that it stays in the node_modules.
+    Also, we have to keep changing the cdn links when there are new versions available as it includes the package number
+-->

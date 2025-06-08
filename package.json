@@ -1,0 +1,29 @@
+{
+  "name": "react-programming",
+  "version": "1.0.0",
+  "description": "This tutorial is Namaste React by Akshay Saini",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest",
+    "watch-test": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahaPritam1994/React.git"
+  },
+  "keywords": [],
+  "author": "Pritam Saha Bhowmick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahaPritam1994/React/issues"
+  },
+  "homepage": "https://github.com/sahaPritam1994/React#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
